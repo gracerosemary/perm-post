@@ -1,6 +1,6 @@
 # Permissions and Postgrestql
 
-PR Link:   
+PR Link: https://github.com/gracerosemary/perm-post/compare/perm?expand=1  
 **Author**: G Choi   
 **Version**: 1.0.0   
 
