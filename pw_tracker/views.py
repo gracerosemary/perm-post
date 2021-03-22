@@ -10,7 +10,7 @@ class TrackerList(generics.ListCreateAPIView):
     queryset = Tracker.objects.all()
     serializer_class = PostSerializer
 
-class TrackerDetail(generics.ListAPIView):
+class TrackerDetail(generics.RetrieveUpdateAPIView):
     permission_classes = (IsOwnerOrReadOnly,)
     queryset = Tracker.objects.all()
     serializer_class = PostSerializer
