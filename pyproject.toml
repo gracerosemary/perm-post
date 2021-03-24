@@ -7,6 +7,9 @@ authors = ["Grace Choi <choi.g.330@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 Django = "^3.1.7"
+djangorestframework = "^3.12.2"
+django-environ = "^0.4.5"
+psycopg2-binary = "^2.8.6"
 
 [tool.poetry.dev-dependencies]
 
