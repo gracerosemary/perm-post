@@ -1,6 +1,6 @@
 # Permissions and Postgrestql
 
-PR Link: https://github.com/gracerosemary/perm-post/compare/gunicorn?expand=1  
+PR Link: https://github.com/gracerosemary/perm-post/pull/2  
 **Author**: G Choi   
 **Version**: 2.0.0   
 
