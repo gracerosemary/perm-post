@@ -14,6 +14,7 @@ djangorestframework-simplejwt = "^4.6.0"
 httpie = "^2.4.0"
 whitenoise = "^5.2.0"
 gunicorn = "^20.0.4"
+django-cors-headers = "^3.7.0"
 
 [tool.poetry.dev-dependencies]
 
