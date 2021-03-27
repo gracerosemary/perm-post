@@ -8,13 +8,13 @@ services:
       - .:/code
     ports:
       - "8000:8000"
-  db:
-    image: postgres:11
-    environment:
-      - POSTGRES_DB=postgres
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
-    volumes:
-      - pw_tracker:/var/lib/postgresql/data
-volumes:
-  pw_tracker:
+#   db:
+#     image: postgres:11
+#     environment:
+#       - POSTGRES_DB=postgres
+#       - POSTGRES_USER=postgres
+#       - POSTGRES_PASSWORD=postgres
+#     volumes:
+#       - pw_tracker:/var/lib/postgresql/data
+# volumes:
+#   pw_tracker:
